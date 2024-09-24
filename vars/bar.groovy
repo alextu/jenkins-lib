@@ -1,8 +1,8 @@
 def call() {
-    try 
+    try {
         println 'Will try to find build scans'
         findBuildScans()
-    catch (NoSuchMethodError e) {
+    } catch (NoSuchMethodError e) {
         println 'Method findBuildScans() is not present'
     }
 }
