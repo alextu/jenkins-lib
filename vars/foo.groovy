@@ -1,3 +1,4 @@
 def bar() {
-    println 'hello'
+    println 'Will try to find build scans'
+    findBuildScans()
 }
